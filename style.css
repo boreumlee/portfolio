@@ -1,4 +1,99 @@
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #2c2c2c;
+}
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #2c2c2c;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #2c2c2c;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
 .bg-1 { 
     background-color: #00cec9;
-    color: #ffffff;
+    color: #f6f9fc;
+}
+.bg-2 { 
+    background-color: #f6f9fc;
+    color: #2c2c2c;
+}
+.bg-3 { 
+    background-color: #f6f9fc;
+    color: #2c2c2c;
+}
+.bg-4 { 
+    background-color: #f6f9fc;
+    color: #2c2c2c;
+}
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    z-index: 9999;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    line-height: 1.42857143;
+    letter-spacing: 5px;
+}
+  
+.navbar li a, .navbar .navbar-brand {
+    color: #2c2c2c !important;
+}
+  
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #1abc9c !important;
+    
+}
+  
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #f6f9fc !important;
+}
+@keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+}
+@-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+}
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+      width: 100%;
+      margin-bottom: 35px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .logo {
+      font-size: 150px;
+    }
 }
