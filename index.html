@@ -4,20 +4,23 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
         <title>이보름 포트폴리오</title>
     </head>
     <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
         <!-- nav -->
-        <nav class="navbar navbar-default navbar-fixed-top">
+        <nav class="navbar navbar-default">
             <div class="container">
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span> 
+                        <span class="icon-bar"></span>                         
                     </button>
                     <a class="navbar-brand" href="#myPage">BOREUM</a>
                 </div>
@@ -32,31 +35,34 @@
             </div>
         </nav>
         <!-- intro -->
-        <div class="container-fluid bg-1 text-center">
-            <h3>Web Front-end developer</h3>
-            <h3>이보름 입니다.</h3>            
-            <img src="leeboreum.jpeg" class="img-responsive img-circle margin" style="display:inline" alt="Boreumlee" width="350" height="350">
+        <div class="container-fluid intro-bg text-center">
+            <h2>boreum lee's portfolio</h2>
+            <img src="leeboreum.jpeg" class="img-responsive img-circle" style="display:inline" alt="Boreumlee" width="250" height="250">
+            <h4 style="margin-top: 30px">안녕하세요 <strong >Front-end developer </strong>이보름입니다.
+                <br>
+                    제 포트폴리오 페이지에 오신걸 환영합니다 :)</h4>            
         </div>
 
         <!-- about -->
-        <div id="about" class="container-fluid bg-2 text-center">
-            <h3>bg-2</h3>
-            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h3>            
-            
+        <div id="about" class="container-fluid about-bg text-center">
+            <h2>About Me</h2>
+            <p>해외 인턴쉽과 교육을 통해 전공을 살렸고 최근 ReactJS에 관심을 가져 공부중에 있습니다. 
+                <br>
+                    사용자가 편리한 웹을 만드는 웹프로그래머가 되기 위해 노력중인 이보름입니다.</p>
         </div>
 
         <!-- skills -->
-        <div id="skills" class="container-fluid bg-3 text-center">
-            <h3>skills</h3>
+        <div id="skills" class="container-fluid skills-bg text-center">
+            <h2>skills</h2>
             <h3>이보름 입니다.</h3>            
             
         </div>
 
         <!-- works -->
-        <div id="works" class="container-fluid bg-4 text-center">
+        <div id="works" class="container-fluid works-bg text-center">
             <h2>Works</h2>
             <h4>What I have created</h4>
-            <div class="row text-center">
+            <div class="row text-center slideanim">
                 <div class="col-sm-4">
                 <div class="thumbnail">
                     <img src="paris.jpg" alt="Paris">
@@ -81,19 +87,20 @@
             </div>
         </div>
         <!-- contact -->
-        <div id="contact" class="container-fluid text-center">
+        <div id="contact" class="container-fluid contact-bg text-center">
             <h2 class="">CONTACT</h2>
-            <p>Contact me.</p>
-            <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
-            <p><span class="glyphicon glyphicon-envelope"></span> boreum4151@gmail.com</p>
+            <p>Contact me on..</p>
+            <p><i class="fas fa-envelope"></i></span> boreum4151@gmail.com</p>
+            <p><i class="fas fa-rocket"></i>rocketpunch <a href="https://www.rocketpunch.com/@boreum4151/info" target="_blank" class="contact-link">profile</a> </p>
+            <p><i class="fab fa-github"></i> boreum lee  <a href="https://github.com/boreumlee" target="_blank" class="contact-link">github</a></p>
         </div>
         <!-- footer -->
-        <footer class="container-fluid bg-4 text-center">
+        <footer class="container-fluid footer-bg text-center">
             <a href="#myPage" title="To Top">
                 <span class="glyphicon glyphicon-chevron-up"></span>
             </a>
-            <p>Coded by boreum lee</p> 
-            <p>You can see this code</p>
+            <p>Coded by <a href="https://boreumlee.github.io/portfolio/" target="_blank" class="footer-link">boreum lee</a></p> 
+            <p>You can see this <a href="https://github.com/boreumlee/portfolio" target="_blank" class="footer-link">code</a></p>
         </footer>       
     </body>
     <script src="app.js"></script>
