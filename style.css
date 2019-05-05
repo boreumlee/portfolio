@@ -1,45 +1,61 @@
 body {
-    font: 400 15px Lato, sans-serif;
+    font: 400 15px Noto Sans KR, sans-serif;
     line-height: 1.8;
     color: #2c2c2c;
 }
 h2 {
     font-size: 24px;
     text-transform: uppercase;
-    color: #2c2c2c;
     font-weight: 600;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+h3{
+    font-size: 21px;
+    line-height: 1.375em;
+    font-weight: 500;
     margin-bottom: 30px;
 }
 h4 {
     font-size: 19px;
     line-height: 1.375em;
-    color: #2c2c2c;
-    font-weight: 400;
+    font-weight: 300;
     margin-bottom: 30px;
 }
-.bg-1 { 
-    background-color: #00cec9;
+.intro-bg { 
+    background-color: rgb(107, 187, 244);
     color: #f6f9fc;
 }
-.bg-2 { 
-    background-color: #f6f9fc;
+.about-bg { 
+    background-color: #eef7ff;
     color: #2c2c2c;
 }
-.bg-3 { 
-    background-color: #f6f9fc;
+.skills-bg { 
+    background-color: #eef7ff;
     color: #2c2c2c;
 }
-.bg-4 { 
-    background-color: #f6f9fc;
+.works-bg { 
+    background-color: #eef7ff;
     color: #2c2c2c;
+}
+.contact-bg .contact-link{
+    text-decoration: none;
+}
+.slideanim {visibility:hidden;}
+.slide {
+    animation-name: slide;
+    -webkit-animation-name: slide; 
+    animation-duration: 1s; 
+    -webkit-animation-duration: 1s;
+    visibility: visible; 
 }
 .container-fluid {
     padding-top: 70px;
     padding-bottom: 70px;
 }
 .navbar {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border: 0;
     z-index: 9999;
     border-radius: 0;
@@ -47,21 +63,26 @@ h4 {
     font-size: 12px;
     line-height: 1.42857143;
     letter-spacing: 5px;
+    position: sticky;
+    top: 0;
 }
-  
-.navbar li a, .navbar .navbar-brand {
-    color: #2c2c2c !important;
-}
-  
-.navbar-nav li a:hover, .navbar-nav li.active a {
+.navbar-nav li a:hover{
     color: #1abc9c !important;
-    
 }
-  
-.navbar-default .navbar-toggle {
-    border-color: transparent;
-    color: #f6f9fc !important;
+.footer-bg{
+    background-color: #eef7ff; 
+    content: '';
+    display: block;
+    text-align: center;
 }
+.footer-bg .footer-link {
+    text-decoration: none;
+}
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
 @keyframes slide {
     0% {
       opacity: 0;
@@ -86,10 +107,6 @@ h4 {
     .col-sm-4 {
       text-align: center;
       margin: 25px 0;
-    }
-    .btn-lg {
-      width: 100%;
-      margin-bottom: 35px;
     }
 }
 @media screen and (max-width: 480px) {

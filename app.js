@@ -1,5 +1,6 @@
 $(document).ready(function(){
     $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+        $(this).closest('ul').find('.active').removeClass('active'); 
         if (this.hash !== "") {
             event.preventDefault();
             var hash = this.hash;
@@ -9,7 +10,7 @@ $(document).ready(function(){
             }, 900, function(){
                 window.location.hash = hash;
             });
-        } 
+        }       
     });
     
     $(window).scroll(function() {
