@@ -63,11 +63,9 @@ h4 {
     font-size: 12px;
     line-height: 1.42857143;
     letter-spacing: 5px;
-    position: sticky;
-    top: 0;
 }
 .navbar-nav li a:hover{
-    color: #1abc9c !important;
+    color: rgb(107, 187, 244) !important;
 }
 .footer-bg{
     background-color: #eef7ff; 
@@ -107,10 +105,5 @@ footer .glyphicon {
     .col-sm-4 {
       text-align: center;
       margin: 25px 0;
-    }
-}
-@media screen and (max-width: 480px) {
-    .logo {
-      font-size: 150px;
     }
 }
