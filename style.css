@@ -1,5 +1,6 @@
+@font-face { font-family: 'BBTreeGR'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_nine_@1.1/BBTreeGR.woff') format('woff'); font-weight: normal; font-style: normal; }
 body {
-    font: 400 15px Noto Sans KR, sans-serif;
+    font: 400 15px;
     line-height: 1.8;
     color: #2c2c2c;
 }
@@ -29,6 +30,9 @@ h4 {
 .about-bg { 
     background-color: #eef7ff;
     color: #2c2c2c;
+}
+.about-bg p{
+    line-height: 2em;
 }
 .skills-bg { 
     background-color: #eef7ff;
