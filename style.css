@@ -1,20 +1,19 @@
-@font-face { font-family: 'BBTreeGR'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_nine_@1.1/BBTreeGR.woff') format('woff'); font-weight: normal; font-style: normal; }
 body {
-    font: 400 15px;
+    font: 400 15px "NanumSquare", sans-serif;
     line-height: 1.8;
     color: #2c2c2c;
 }
 h2 {
     font-size: 26px;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 30px;
     letter-spacing: 1px;
 }
 h3{
     font-size: 21px;
     line-height: 1.375em;
-    font-weight: 500;
+    font-weight: 400;
     margin-bottom: 30px;
 }
 h4 {
@@ -33,7 +32,7 @@ h4 {
 }
 .about-bg p{
     line-height: 2em;
-    font-size: 18px;
+    font-size: 16px;
 }
 @media (max-width: 1024px) {
     .about-bg p{
